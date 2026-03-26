@@ -4,7 +4,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: flm1-pool
 
 steps:
 - script: echo Hello, world!
